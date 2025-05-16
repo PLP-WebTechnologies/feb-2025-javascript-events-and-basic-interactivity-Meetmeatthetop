@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h1>imageline</h1>
+        </div>
+        <div id="score">
+            <div id="player">
+                <label for="">Player</label>
+                <p id="playerScore">0</p>
+            </div>
+            <div id="computer">
+                <p id="computerScore">0</p>
+                <label for="">Computer</label>
+            </div>
+        </div>
+        <div>
+            <button class="reset" id="resetGame">Reset</button>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Welcome to imageline Game</h1>
+            <div class="gamepick">
+                <p>Find this item:</p>
+                <div id="pick">
+                    <p class="pick">Paper</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardcontainer">
+        <div class="card" data-card="1">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>?</h2>
+                </div>
+                <div class="card-back">
+                    <h2 class="card-value">Paper</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card" data-card="2">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>?</h2>
+                </div>
+                <div class="card-back">
+                    <h2 class="card-value">Rock</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card" data-card="3">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h2>?</h2>
+                </div>
+                <div class="card-back">
+                    <h2 class="card-value">Scissors</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button id="newgame">New Game</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
